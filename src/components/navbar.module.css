@@ -1,0 +1,30 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, hsl(230, 70%, 8%), hsl(280, 70%, 10%));
+    color: white;
+    font-size: 2rem;
+    padding: 6px 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 300ms;
+    z-index: 20;
+    font-weight: 800;
+
+}
+
+.subText {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.navbar:hover {
+    color: aquamarine;
+}

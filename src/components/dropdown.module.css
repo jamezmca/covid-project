@@ -1,0 +1,16 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-left: 10px;
+}
+
+.dropdownItem {
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    transform: translateX(10px);
+    color: turquoise;
+}
